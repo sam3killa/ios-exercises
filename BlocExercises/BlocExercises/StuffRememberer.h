@@ -25,6 +25,9 @@
   3. In `floatYouShouldRemember`, return the float value provided in `rememberThisFloatForLater:`.
  
  */
+@property (strong, nonatomic) NSMutableArray *storedArray;
+@property (copy, nonatomic) NSMutableArray *storedCopiedArray;
+@property (assign) CGFloat storedFloat;
 
 /**
  Indicates a mutable array to remember for later.
